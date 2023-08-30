@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
 * {
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family:'gluten';
+    background-color: #b697ff;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color:  #300068;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
 }
@@ -38,16 +42,30 @@ main {
     height: 500px;
     margin: 10px;
     padding: 10px; 
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #5300b3;
+    box-shadow: 0 2px 4px rgba(80, 0, 69, 0.555);
     text-align: center;
     float: left; 
 }
 footer {
-    background-color: #333;
+    background-color: #300068;
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+button {
+    font-family: 'indie flower';
+    color:rgb(205, 161, 255) ;
+    background-color: #5831a0e3;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+body h2 {
+    color: #b485ff;
+}
+body p {
+    color: #9594ff;
 }
 @media screen and (max-width: 768px) {
     .card {
