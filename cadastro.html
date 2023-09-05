@@ -60,6 +60,33 @@
                             <label for="espanhol">Espanhol</label>
                         </div>
                     </div>
+                    <div class="input-container">
+                        <label for="isbn">ISBN</label>
+                        <input type="text" name="isbn" id="isbn" placeholder="ISBN do livro" pattern="\d{3}-\d{10}" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="ano">Ano</label>
+                        <input type="number" name="ano" id="ano" placeholder="Ano de publicação" required>
+                    </div>
+                    
+                    <div class="input-container">
+                        <label for="paginas">Páginas</label>
+                        <input type="number" name="paginas" id="paginas" placeholder="Número de páginas" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="categoria">Categoria</label>
+                        <select name="categoria" id="categoria" required>
+                            <option value="">Selecione</option>
+                            <option value="Ação">Ação</option>
+                            <option value="Aventura">Aventura</option>
+                            <option value="Comédia">Comédia</option>
+                            <option value="Drama">Drama</option>
+                            <option value="Ficção Científica">Ficção Científica</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Suspense">Suspense</option>
+                            <option value="Terror">Terror</option>
+                        </select>
+                    </div>                    
             
                 </fieldset>
             </form>
