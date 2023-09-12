@@ -87,10 +87,35 @@
                             <option value="Terror">Terror</option>
                         </select>
                     </div>                    
-            
+                    <div class="input-container">
+                        <label>Estado do Livro</label>
+                        <div class="radio-group">
+                            <input type="radio" name="situacao" id="novo" value="Novo" required checked>
+                            <label for="novo">Novo</label>
+                          
+                            <input type="radio" name="situacao" id="usado" value="Usado" required>
+                            <label for="usado">Usado</label>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <label for="resumo">Resumo</label>
+                        <textarea name="resumo" id="resumo" placeholder="Resumo do livro" rows="5" required></textarea>
+                    </div>
+                    <div class="input-container">
+                        <label for="capa">Capa</label>
+                        <input type="file" name="capa" id="capa" accept="image/*">
+                    </div>
+                    <div class="actions">
+                        <button type="submit">Cadastrar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                    
                 </fieldset>
             </form>
         </section>
     </main>
+    <footer>
+        <p>&copy; 2023 Livraria Fantástica | Criado por Seu Nome</p>
+    </footer>
 </body>
 </html>
