@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de Livros</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Livraria Fantástica</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#">Livros</a></li>
+                    <li><a href="validar.html">Comprar</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="formular.html">Compra</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="container">
+                <form>
+                    <fieldset>
+                        <legend>Comprar Livros</legend>
+                        <div class="input-container">
+                            <label for="Digite seu nome">Nome</label>
+                            <input type="text" name="Digite seu nome" id="Digite seu nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="input-container">
+                            <label for="cpf">CPF</label>
+                            <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" pattern="\d{3}.\d{3}.\d{3}-\d{2}" required>
+                        </div>
+                        <div class="input-container">
+                            <label for="cpf">CPF</label>
+                            <input type="email" name="email" id="idEmail" placeholder="Digite seu Email" required> //*ARRUMAR*//
+                        </div>
+                        
+                        <div class="input-container">
+                            <label>Qual(s) livro(s) deseja?</label>
+                            <div class="input-check">
+                                <h5>A cinco passos de você</h5>
+                                <input type="checkbox" name="Qual(s) livro(s) deseja?" value="A cinco Passos de Você" id="A cinco Passos de Você">
+                                <label for="A cinco Passos de Você">R$50,00</label>
+                            </div>
+                            <div class="input-check">
+                                <h5>Garota em Pedaços</h5>
+                                <input type="checkbox" name="Qual(s) livro(s) deseja?" value="Garota em Pedaços" id="Garota em Pedaços">
+                                <label for="Garota em Pedaços">R$60,00</label>
+                            </div>
+                            <div class="input-check">
+                                <h5>O Sol Também é Uma Estrela</h5>
+                                <input type="checkbox" name="Qual(s) livro(s) deseja?" value="O Sol Também é Uma Estrela" id="O Sol Também é Uma Estrela">
+                                <label for="O Sol Também é Uma Estrela">R$40,00</label>
+                            </div>
+                            <div class="input-check">
+                                <h5>Por Lugares Incríveis</h5>
+                                <input type="checkbox" name="Qual(s) livro(s) deseja?" value="Por Lugares Incríveis" id="Por Lugares Incríveis">
+                                <label for="Por Lugares Incríveis">R$70,00</label>
+                            </div>
+                            <div class="input-check">
+                                <h5>Cartas de Amor Aos Mortos</h5>
+                                <input type="checkbox" name="Qual(s) livro(s) deseja?" value="Cartas de Amor Aos Mortos" id="Cartas de Amor Aos Mortos">
+                                <label for="Cartas de Amor Aos Mortos">R$40,00</label>
+                            </div>
+                            <div class="actions">
+                                <button type="submit">Cadastrar</button>
+                                <button type="reset">Limpar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+    </body>
+
+</html>
